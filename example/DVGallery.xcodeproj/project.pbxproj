@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C56EDF81591E8F1006C8EA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C56EDF71591E8F1006C8EA3 /* UIKit.framework */; };
+		8C56EDFA1591E8F1006C8EA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C56EDF91591E8F1006C8EA3 /* Foundation.framework */; };
+		8C56EDFC1591E8F1006C8EA3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C56EDFB1591E8F1006C8EA3 /* CoreGraphics.framework */; };
+		8C56EE021591E8F1006C8EA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C56EE001591E8F1006C8EA3 /* InfoPlist.strings */; };
+		8C56EE041591E8F1006C8EA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C56EE031591E8F1006C8EA3 /* main.m */; };
+		8C56EE081591E8F1006C8EA3 /* DVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C56EE071591E8F1006C8EA3 /* DVAppDelegate.m */; };
+		8C56EE0B1591E8F1006C8EA3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C56EE091591E8F1006C8EA3 /* MainStoryboard_iPhone.storyboard */; };
+		8C56EE0E1591E8F1006C8EA3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C56EE0C1591E8F1006C8EA3 /* MainStoryboard_iPad.storyboard */; };
+		8C56EE111591E8F1006C8EA3 /* DVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C56EE101591E8F1006C8EA3 /* DVViewController.m */; };
+		8C6EAB7D15946DA200AD8875 /* DVPagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6EAB7C15946DA200AD8875 /* DVPagesView.m */; };
+		8CD3470715AEFB4900920681 /* gPic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD3470315AEFB4800920681 /* gPic1.jpg */; };
+		8CD3470815AEFB4900920681 /* gPic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD3470415AEFB4800920681 /* gPic2.jpg */; };
+		8CD3470915AEFB4900920681 /* gPic3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD3470515AEFB4800920681 /* gPic3.jpg */; };
+		8CD3470A15AEFB4900920681 /* gPic4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD3470615AEFB4900920681 /* gPic4.jpg */; };
+		8CD3471615B01D5A00920681 /* brooklyn-bridge-panorama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD3471515B01D5A00920681 /* brooklyn-bridge-panorama.jpg */; };
+		8CEC70CD159D9DFE00B791BC /* DVGalleryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEC70CC159D9DFE00B791BC /* DVGalleryView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C56EDF31591E8F1006C8EA3 /* DVGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C56EDF71591E8F1006C8EA3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8C56EDF91591E8F1006C8EA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8C56EDFB1591E8F1006C8EA3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8C56EDFF1591E8F1006C8EA3 /* DVGallery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DVGallery-Info.plist"; sourceTree = "<group>"; };
+		8C56EE011591E8F1006C8EA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8C56EE031591E8F1006C8EA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C56EE051591E8F1006C8EA3 /* DVGallery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DVGallery-Prefix.pch"; sourceTree = "<group>"; };
+		8C56EE061591E8F1006C8EA3 /* DVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVAppDelegate.h; sourceTree = "<group>"; };
+		8C56EE071591E8F1006C8EA3 /* DVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVAppDelegate.m; sourceTree = "<group>"; };
+		8C56EE0A1591E8F1006C8EA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		8C56EE0D1591E8F1006C8EA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		8C56EE0F1591E8F1006C8EA3 /* DVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVViewController.h; sourceTree = "<group>"; };
+		8C56EE101591E8F1006C8EA3 /* DVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVViewController.m; sourceTree = "<group>"; };
+		8C6EAB7B15946DA200AD8875 /* DVPagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVPagesView.h; sourceTree = "<group>"; };
+		8C6EAB7C15946DA200AD8875 /* DVPagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVPagesView.m; sourceTree = "<group>"; };
+		8CD3470315AEFB4800920681 /* gPic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gPic1.jpg; sourceTree = "<group>"; };
+		8CD3470415AEFB4800920681 /* gPic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gPic2.jpg; sourceTree = "<group>"; };
+		8CD3470515AEFB4800920681 /* gPic3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gPic3.jpg; sourceTree = "<group>"; };
+		8CD3470615AEFB4900920681 /* gPic4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gPic4.jpg; sourceTree = "<group>"; };
+		8CD3471515B01D5A00920681 /* brooklyn-bridge-panorama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "brooklyn-bridge-panorama.jpg"; sourceTree = "<group>"; };
+		8CEC70CB159D9DFE00B791BC /* DVGalleryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVGalleryView.h; sourceTree = "<group>"; };
+		8CEC70CC159D9DFE00B791BC /* DVGalleryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVGalleryView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C56EDF01591E8F0006C8EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C56EDF81591E8F1006C8EA3 /* UIKit.framework in Frameworks */,
+				8C56EDFA1591E8F1006C8EA3 /* Foundation.framework in Frameworks */,
+				8C56EDFC1591E8F1006C8EA3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C56EDE81591E8F0006C8EA3 = {
+			isa = PBXGroup;
+			children = (
+				8C56EDFD1591E8F1006C8EA3 /* DVGallery */,
+				8C56EDF61591E8F1006C8EA3 /* Frameworks */,
+				8C56EDF41591E8F1006C8EA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C56EDF41591E8F1006C8EA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C56EDF31591E8F1006C8EA3 /* DVGallery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C56EDF61591E8F1006C8EA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C56EDF71591E8F1006C8EA3 /* UIKit.framework */,
+				8C56EDF91591E8F1006C8EA3 /* Foundation.framework */,
+				8C56EDFB1591E8F1006C8EA3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C56EDFD1591E8F1006C8EA3 /* DVGallery */ = {
+			isa = PBXGroup;
+			children = (
+				8CD3471515B01D5A00920681 /* brooklyn-bridge-panorama.jpg */,
+				8CD3470315AEFB4800920681 /* gPic1.jpg */,
+				8CD3470415AEFB4800920681 /* gPic2.jpg */,
+				8CD3470515AEFB4800920681 /* gPic3.jpg */,
+				8CD3470615AEFB4900920681 /* gPic4.jpg */,
+				8C56EE061591E8F1006C8EA3 /* DVAppDelegate.h */,
+				8C56EE071591E8F1006C8EA3 /* DVAppDelegate.m */,
+				8C56EE091591E8F1006C8EA3 /* MainStoryboard_iPhone.storyboard */,
+				8C56EE0C1591E8F1006C8EA3 /* MainStoryboard_iPad.storyboard */,
+				8C56EE0F1591E8F1006C8EA3 /* DVViewController.h */,
+				8C56EE101591E8F1006C8EA3 /* DVViewController.m */,
+				8C56EDFE1591E8F1006C8EA3 /* Supporting Files */,
+				8C6EAB7B15946DA200AD8875 /* DVPagesView.h */,
+				8C6EAB7C15946DA200AD8875 /* DVPagesView.m */,
+				8CEC70CB159D9DFE00B791BC /* DVGalleryView.h */,
+				8CEC70CC159D9DFE00B791BC /* DVGalleryView.m */,
+			);
+			path = DVGallery;
+			sourceTree = "<group>";
+		};
+		8C56EDFE1591E8F1006C8EA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C56EDFF1591E8F1006C8EA3 /* DVGallery-Info.plist */,
+				8C56EE001591E8F1006C8EA3 /* InfoPlist.strings */,
+				8C56EE031591E8F1006C8EA3 /* main.m */,
+				8C56EE051591E8F1006C8EA3 /* DVGallery-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C56EDF21591E8F0006C8EA3 /* DVGallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C56EE141591E8F1006C8EA3 /* Build configuration list for PBXNativeTarget "DVGallery" */;
+			buildPhases = (
+				8C56EDEF1591E8F0006C8EA3 /* Sources */,
+				8C56EDF01591E8F0006C8EA3 /* Frameworks */,
+				8C56EDF11591E8F0006C8EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DVGallery;
+			productName = DVGallery;
+			productReference = 8C56EDF31591E8F1006C8EA3 /* DVGallery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C56EDEA1591E8F0006C8EA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = MySelf;
+			};
+			buildConfigurationList = 8C56EDED1591E8F0006C8EA3 /* Build configuration list for PBXProject "DVGallery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8C56EDE81591E8F0006C8EA3;
+			productRefGroup = 8C56EDF41591E8F1006C8EA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C56EDF21591E8F0006C8EA3 /* DVGallery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C56EDF11591E8F0006C8EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C56EE021591E8F1006C8EA3 /* InfoPlist.strings in Resources */,
+				8C56EE0B1591E8F1006C8EA3 /* MainStoryboard_iPhone.storyboard in Resources */,
+				8C56EE0E1591E8F1006C8EA3 /* MainStoryboard_iPad.storyboard in Resources */,
+				8CD3470715AEFB4900920681 /* gPic1.jpg in Resources */,
+				8CD3470815AEFB4900920681 /* gPic2.jpg in Resources */,
+				8CD3470915AEFB4900920681 /* gPic3.jpg in Resources */,
+				8CD3470A15AEFB4900920681 /* gPic4.jpg in Resources */,
+				8CD3471615B01D5A00920681 /* brooklyn-bridge-panorama.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C56EDEF1591E8F0006C8EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C56EE041591E8F1006C8EA3 /* main.m in Sources */,
+				8C56EE081591E8F1006C8EA3 /* DVAppDelegate.m in Sources */,
+				8C56EE111591E8F1006C8EA3 /* DVViewController.m in Sources */,
+				8C6EAB7D15946DA200AD8875 /* DVPagesView.m in Sources */,
+				8CEC70CD159D9DFE00B791BC /* DVGalleryView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C56EE001591E8F1006C8EA3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C56EE011591E8F1006C8EA3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8C56EE091591E8F1006C8EA3 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C56EE0A1591E8F1006C8EA3 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8C56EE0C1591E8F1006C8EA3 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C56EE0D1591E8F1006C8EA3 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C56EE121591E8F1006C8EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C56EE131591E8F1006C8EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C56EE151591E8F1006C8EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DVGallery/DVGallery-Prefix.pch";
+				INFOPLIST_FILE = "DVGallery/DVGallery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8C56EE161591E8F1006C8EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DVGallery/DVGallery-Prefix.pch";
+				INFOPLIST_FILE = "DVGallery/DVGallery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C56EDED1591E8F0006C8EA3 /* Build configuration list for PBXProject "DVGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C56EE121591E8F1006C8EA3 /* Debug */,
+				8C56EE131591E8F1006C8EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C56EE141591E8F1006C8EA3 /* Build configuration list for PBXNativeTarget "DVGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C56EE151591E8F1006C8EA3 /* Debug */,
+				8C56EE161591E8F1006C8EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C56EDEA1591E8F0006C8EA3 /* Project object */;
+}
