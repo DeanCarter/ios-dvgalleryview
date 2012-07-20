@@ -3,7 +3,7 @@ Grid gallery iOS control
 
 Copyright 2012 Ponomarev Dmitry <demdxx@gmail.com> MIT
 
-![Examples](screenshot.png)
+![Examples](blob/master/screenshot.png)
 
 DVPageView
 ----------
