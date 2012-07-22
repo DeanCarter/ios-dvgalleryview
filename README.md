@@ -36,10 +36,6 @@ The component forms a grid, the presence of pages **UIView** is not mandatory.
 - (void)pageChange:(DVPagesView*)pageView oldPage:(NSInteger)oldPage newPage:(NSInteger)page duration:(NSTimeInterval)duration {
     // ...
 }
-
-- (void)galleryCellTapped:(DVGalleryView*)gallery view:(UIView*)view {
-    // ...
-}
 ```
 
 DVGalleryView
@@ -67,7 +63,6 @@ Extending the Class **DVPageView** adds to the page grid with **UIView**.
 - (CGSize)galleryCellSize:(DVGalleryView*)gallery view:(UIView*)view page:(NSInteger)page index:(NSInteger)index {
     return index>=0 ? [view frame].size : CGSizeMake(120, 120);
 }
-
 
 - (void)galleryCellTapped:(DVGalleryView*)gallery view:(UIView*)view {
     // ...
